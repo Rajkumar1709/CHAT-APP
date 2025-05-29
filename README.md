@@ -119,4 +119,4 @@ This project is licensed under the MIT License.
 ## 🧑‍💻 Author
 
 **Your Name**  
-GitHub: [Rajkumar1709](https://github.com/your-username)
+GitHub: [Rajkumar Vanjaku](https://github.com/Rajkumar1709)
