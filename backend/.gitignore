@@ -1,0 +1,30 @@
+# Node modules
+node_modules/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Environment variables
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE/editor specific
+.vscode/
+.idea/
+
+# Build output
+dist/
+build/
+
+# Optional: ignore uploads or temp files if your project generates any
+uploads/
+temp/
+
+# Debug files
+*.pid
+*.seed
