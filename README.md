@@ -64,6 +64,7 @@ This is the backend for a real-time chat application built with **Node.js**, **E
    MONGO_URI=your_mongodb_connection_string
    JWT_SECRET=your_jwt_secret_key
    NODE_ENV=development
+   PORT=your_specified_port_no
    ```
 
 4. **Run the server**
@@ -71,7 +72,7 @@ This is the backend for a real-time chat application built with **Node.js**, **E
    npm run dev
    ```
 
-   The server will start on `http://localhost:5000` (or your specified port).
+   The server will start on `http://localhost:5001` (or your specified port).
 
 ---
 
@@ -81,9 +82,9 @@ This is the backend for a real-time chat application built with **Node.js**, **E
 
 | Method | Endpoint        | Description         |
 |--------|------------------|---------------------|
-| POST   | `/api/signup`   | Register a new user |
-| POST   | `/api/login`    | Login and receive JWT |
-| GET    | `/api/logout`   | Logout and clear token |
+| POST   | `/api/auth/signup`   | Register a new user |
+| POST   | `/api/auth/login`    | Login and receive JWT |
+| GET    | `/api/auth/logout`   | Logout and clear token |
 
 ---
 
@@ -118,5 +119,5 @@ This project is licensed under the MIT License.
 
 ## 🧑‍💻 Author
 
-**Your Name**  
+**RAJKUMAR VANJAKU**  
 GitHub: [Rajkumar Vanjaku](https://github.com/Rajkumar1709)
